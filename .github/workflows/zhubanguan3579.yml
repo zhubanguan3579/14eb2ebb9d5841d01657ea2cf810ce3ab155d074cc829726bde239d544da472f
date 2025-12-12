@@ -1,11 +1,10 @@
 name: zhubanguan3579
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 4/6 * * *'
+    - cron: '50 5/6 * * *'
 
-jobs:  # 15133
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,21 +12,16 @@ jobs:  # 15133
       - uses: actions/checkout@v4
       - name: zhubanguan3579
         env:
-          ygw1: ${{ secrets.ygw1 }}
+          ov0: ${{ secrets.ov0 }}
         run: |
-          echo $ygw1 | jq -r .q93707 | /bin/bash
-          echo $oiob4564 | jq -r .zhp6813 | /bin/bash
-          echo $y4 | jq -r .msz30436 | /bin/bash
-          echo $oujf20 | jq -r .gwqgl87400 | /bin/bash
-          echo $xjwx0120 | jq -r .t53981 | /bin/bash
-          echo $efdk9937 | jq -r .gncze51 | /bin/bash
-          echo $tc83 | jq -r .c175 | /bin/bash
-          echo $kgyek348 | jq -r .zgxwg125 | /bin/bash
-          echo $iwkk27048 | jq -r .jrb256 | /bin/bash
-          echo $a26 | jq -r .xki8009 | /bin/bash
-          echo $ugwtu7374 | jq -r .ajgn0588 | /bin/bash
-          echo $dpui3 | jq -r .hahdq38 | /bin/bash
-          echo $wi4976 | jq -r .uweao51549 | /bin/bash
-          echo $vrqio17 | jq -r .y63105 | /bin/bash
-          echo $h66079 | jq -r .oyzi79602 | /bin/bash
+          echo $ov0 | jq -r .en8 | /bin/bash
+          echo $dan3064 | jq -r .kdm82 | /bin/bash
+          echo $dd0155 | jq -r .r54648 | /bin/bash
+          echo $uf754 | jq -r .dgl86230 | /bin/bash
+          echo $tyjhc844 | jq -r .sobas36222 | /bin/bash
+          echo $cnf006 | jq -r .oqw0203 | /bin/bash
+          echo $ha249 | jq -r .ychwr88 | /bin/bash
+          echo $pbjz3240 | jq -r .f84 | /bin/bash
+          echo $xmatu09 | jq -r .pgake71 | /bin/bash
+          echo $ztyf01166 | jq -r .vglaj7729 | /bin/bash
 
